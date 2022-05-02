@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class ExemploList {
-    public static void main(String[] args) {
+    public void aula1() {
        //Dada uma lista com 7 notas de uma aluno [7, 8.5, 9.3, 5, 7, 0, 3.6], faça:
         //1-Crie uma lista e adicione as notas:
 
