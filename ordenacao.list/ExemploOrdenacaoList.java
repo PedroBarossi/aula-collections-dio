@@ -1,11 +1,11 @@
-/*Dadas as seguintes informações sobre seus cachorros,
+package ordenacao.list;/*Dadas as seguintes informações sobre seus cachorros,
 crie uma lista e ordene-a exibindo:
 (nome-idade-cor);
 
-Cachorro 1 = Amora, 5, amarela
-Cachorro 2 = Luna, 2, caramelo
-Cachorro 3 = Bidu, 13, caramelo
-Cachorro 4  = Luna, 11, branca
+ordenacao.list.Cachorro 1 = Amora, 5, amarela
+ordenacao.list.Cachorro 2 = Luna, 2, caramelo
+ordenacao.list.Cachorro 3 = Bidu, 13, caramelo
+ordenacao.list.Cachorro 4  = Luna, 11, branca
  */
 
 import java.util.ArrayList;
@@ -15,7 +15,7 @@ import java.util.List;
 
 
 public class ExemploOrdenacaoList {
-    public static void main(String[] args) {
+    public static void velhomain {
 
         //criação da lista e inserção de dados
         List<Cachorro> meusDogs = new ArrayList<>(){{
