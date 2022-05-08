@@ -8,7 +8,7 @@ ocorreram (nome do mês por extenso)
 /*import java.text.DateFormatSymbols;
 import java.util.*;
 
-public class exercicio {
+public class Exercicio {
     public static void main(String[] args) {
         List<Float> temperaturas = new ArrayList<>();
         Scanner teclado = new Scanner(System.in);

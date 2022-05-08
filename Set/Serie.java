@@ -1,6 +1,6 @@
-import java.util.Objects;
+/*import java.util.Objects;
 
-class Serie {
+class Serie implements Comparable<Serie> {
     private String nome, genero;
     private int tempoEpisodio;
 
@@ -56,4 +56,13 @@ class Serie {
         this.tempoEpisodio = tempoEpisodio;
 
     }
+
+    @Override
+    public int compareTo(Serie o) {
+        int tempoEpisodio = Integer.compare(this.getTempoEpisodio(), o.getTempoEpisodio());
+        if (tempoEpisodio != 0) return tempoEpisodio;
+        return this.getGenero().compareTo(o.getGenero());
+
+    }
 }
+ */
