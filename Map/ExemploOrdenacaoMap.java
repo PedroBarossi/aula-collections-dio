@@ -1,4 +1,4 @@
-import java.util.*;
+//import java.util.*;
 
 /*Dadas as seguintes informações sobre meus
 livros favoritos, crie um dicionário e ordene-o, exibindo:
@@ -9,6 +9,7 @@ Rowling, J.K. - Harry Potter e As Relíquias da Morte 684
 Manson, Mark - A Sutil Arte de Ligar o F*da-se 204
 Carlin, George - Brain Droppings 350
  */
+/*
 public class ExemploOrdenacaoMap {
     public static void main(String[] args) {
         Map<String, Livro> meusLivros = new HashMap<>(){{
@@ -42,6 +43,9 @@ public class ExemploOrdenacaoMap {
         meusLivros3.addAll(meusLivros.entrySet());
         System.out.println(meusLivros3);
 //5-Exibir por ordem de número de páginas:
+        Set<Map.Entry<String, Livro>> meusLivros4 = new TreeSet<>(new ComparatorPags());
+        meusLivros4.addAll(meusLivros.entrySet());
+        System.out.println(meusLivros4);
     }
 }
 
@@ -52,3 +56,12 @@ class ComparatorTitulo implements Comparator<Map.Entry<String, Livro>>{
         return l1.getValue().getTitulo().compareToIgnoreCase(l2.getValue().getTitulo());
     }
 }
+
+class ComparatorPags implements Comparator<Map.Entry<String, Livro>>{
+
+    @Override
+    public int compare(Map.Entry<String, Livro> l1, Map.Entry<String, Livro> l2) {
+        return l1.getValue().getPaginas().equals(l2.getValue().getPaginas());
+    }
+}
+*/
