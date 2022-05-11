@@ -4,9 +4,9 @@ Mostre quantas vezes cada valor foi inserido
 github cami-la aula-collections-dio
  */
 
-import java.util.*;
+//import java.util.*;
 
-public class Desafio {
+/*public class Desafio {
     public static void main(String[] args) {
         List<Integer> lancamentos = new ArrayList<>();
         for (int contador = 0; contador<100; contador++) lancamentos.add((int)Math.floor(Math.random()*6+1));
@@ -35,3 +35,5 @@ public class Desafio {
         System.out.println("Número de resultados 6: " + d6);
     }
 }
+
+ */
