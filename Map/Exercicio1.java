@@ -8,7 +8,7 @@ AL 3351543
 CE 9187103
 RN 3534265
  */
-public class Exercicio1 {
+/*public class Exercicio1 {
     public static void main(String[] args) {
 //Crie um dicionário e relacione os estados e suas populações
         Map<String, Integer> estadosNordeste = new HashMap<>(){{
@@ -78,4 +78,4 @@ public class Exercicio1 {
 
     }
 
-}
+}*/
